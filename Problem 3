@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void drawLine(int length);
+
+int main() {
+	//function call
+	drawLine(100);
+}
+void drawLine(int length) {
+	for (int i = 0; i < length; i++) {
+		cout << "-";
+	}
+}
