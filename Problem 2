@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+//function delcaration
+
+void printName (string name);
+int main() {
+	string name;
+	cout << "What is your name?" << endl;
+	cin >> name;
+	printName(name);
+}
+
+void printName(string name) {
+	
+	cout << "Hello," << name << endl;
+}
