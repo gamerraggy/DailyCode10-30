@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+//function delcaration
+
+void hoursToSeconds(int hours);
+int main() {
+	int hours;
+	cout << "How many hours" << endl;
+	cin >> hours;
+	hoursToSeconds(hours);
+}
+
+void hoursToSeconds(int hours) {
+	
+
+	cout << hours * 60 * 60 << endl;
+
+}
